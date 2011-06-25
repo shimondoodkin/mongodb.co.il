@@ -1,0 +1,3 @@
+http://commons.apache.org/daemon/download_daemon.cgi - click on "Browse native binaries download area..." and downlaod a the windows zip
+
+http://commons.apache.org/daemon/license.html
