@@ -24,20 +24,19 @@ Mongodb Quick Installation Script
        install.bat
 
   5. run install.bat 
-     if you have made a mistake you can install.bat file again it will re-register the services
+     if you have made a mistake you can install.bat file again it will 
+     unregister and register the services.
 
   6 Credits
      Created by Shimon Doodkin (http://doodkin.com)
 
 
 
-Read install.sh
-The scripts are simple you can modify it and bend it to your needs quickly.
-I wrote it is intentionally in not a not DRY functions fashion
-So it will by straight forward. I think you will be able fairly easily  
-reconstruct this script in to a script of your needs.
-
-
+The scripts are simple. you can run each one by it self.
+For example running s1r1.bat will unregister and register a windows service.
+I wrote it intentionally in not a not DRY functions fashion
+so it will be straight forward. I think you will be able fairly easily
+modify these scripts to your needs and use them.
 
 plan:
 

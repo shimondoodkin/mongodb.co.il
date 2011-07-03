@@ -27,7 +27,8 @@
 ::         install.bat
 ::     
 ::    5. run install.bat 
-::       if you have made a mistake you can install.bat file again it will re-register the services
+::       if you have made a mistake you can install.bat file again it will 
+::       unregister and register the services.
 ::  
 ::    6 Credits
 ::       Created by Shimon Doodkin (http://doodkin.com)
