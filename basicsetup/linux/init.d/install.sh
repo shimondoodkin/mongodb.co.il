@@ -18,7 +18,7 @@
 #       for example:
 #       web0     127.0.0.1
 #       
-#    3. change hostname in files: (search and replace web0)    
+#    3. change hostname in files: (search and replace web0 with your local hostname)    
 #         mongos
 #         install.sh
 #     

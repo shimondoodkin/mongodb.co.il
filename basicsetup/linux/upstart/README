@@ -1,19 +1,19 @@
 Mongodb Quick Installation Script
 
   1. change ip binding to your likening in files:  , the ip can be several separated by comma
-       mongodbs1r1
-       mongodbs1r2
-       mongodbs1r3
-       mongodbconfigdb
-       mongodbconfigdb2
-       mongodbconfigdb3
+       mongodbs1r1.conf
+       mongodbs1r2.conf
+       mongodbs1r3.conf
+       mongodbconfigdb.conf
+       mongodbconfigdb2.conf
+       mongodbconfigdb3.conf
   2. validate your /etc/hosts file
      that it contains your hostname as a name not localhost
      for example:
      web0     127.0.0.1
      
   3. change hostname in files: (search and replace web0)    
-       mongos
+       mongos.conf
        install.sh
    
   4. run install.sh 
@@ -48,21 +48,21 @@ please note: this script doesn't configure how to shard a database
 
 snippets:
 
-/etc/init.d/mongos stop             
-/etc/init.d/mongodbs1r1 stop
-/etc/init.d/mongodbs1r2 stop
-/etc/init.d/mongodbs1r3 stop
-/etc/init.d/mongodbconfigdb stop
-/etc/init.d/mongodbconfigdb2 stop
-/etc/init.d/mongodbconfigdb3 stop
+stop mongos
+stop mongodbs1r1
+stop mongodbs1r2
+stop mongodbs1r3
+stop mongodbconfigdb
+stop mongodbconfigdb2
+stop mongodbconfigdb3
 
-/etc/init.d/mongodbs1r1 start
-/etc/init.d/mongodbs1r2 start
-/etc/init.d/mongodbs1r3 start
-/etc/init.d/mongodbconfigdb start
-/etc/init.d/mongodbconfigdb2 start
-/etc/init.d/mongodbconfigdb3 start
-/etc/init.d/mongos start
+start mongodbs1r1
+start mongodbs1r2
+start mongodbs1r3
+start mongodbconfigdb
+start mongodbconfigdb2
+start mongodbconfigdb3
+start mongos
 
 
 
