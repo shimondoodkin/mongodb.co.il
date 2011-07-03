@@ -13,6 +13,7 @@
 #         mongodbconfigdb
 #         mongodbconfigdb2
 #         mongodbconfigdb3
+#         mongos
 #    2. validate your /etc/hosts file
 #       that it contains your hostname as a name not localhost
 #       for example:

@@ -23,5 +23,5 @@ echo on
 
 net stop mongos
 %prunsrv% //DS//mongos
-%prunsrv% //IS//mongos --DisplayName="MongoDB mongos" --Startup=auto --Install=C:\mongodb\bin\prunsrv.exe --StartMode=exe --StartImage=C:\mongodb\bin\mongos.exe ++StartParams=--configdb#www0:27019,www0:27119,www0:27219#--port#27017#--logpath#c:/mongodb/logs/mongos.log --StdOutput=c:\mongodb\logs\mongos.out.log --StdError=c:\mongodb\logs\mongos.err.log
+%prunsrv% //IS//mongos --DisplayName="MongoDB mongos" --Startup=auto --Install=C:\mongodb\bin\prunsrv.exe --StartMode=exe --StartImage=C:\mongodb\bin\mongos.exe ++StartParams=--configdb#web0:27019,web0:27119,web0:27219#--bind_ip#127.0.0.1#--port#27017#--logpath#c:/mongodb/logs/mongos.log --StdOutput=c:\mongodb\logs\mongos.out.log --StdError=c:\mongodb\logs\mongos.err.log
 net start mongos
