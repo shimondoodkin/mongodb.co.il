@@ -47,6 +47,16 @@ please note: this script doesn't configure how to shard a database
 
 
 
+This is a basic configuration and it is not much stable
+To make it stable spread the parts to different computers.
+A more stable configuration is like:
+
+mongod servers replica set "s1": web0:27018,web0:27020-arbiter,web1:27018,web1:27020-arbiter
+config servers:                  web0:27019,web1:27019,web0:27119
+mongos router:                   web0:27017
+
+
+
 snippets:
 
 stop mongos
