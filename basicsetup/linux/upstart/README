@@ -28,7 +28,7 @@ Mongodb Quick Installation Script
 
 Read install.sh
 The script is simple you can modify it and bend it to your needs quickly.
-I wrote it intentionally in not a not DRY functions fashion
+I wrote it intentionally in a not DRY functions fashion
 So it will be straight forward. I think you will be able fairly easily  
 reconstruct this script in to a script of your needs.
 
