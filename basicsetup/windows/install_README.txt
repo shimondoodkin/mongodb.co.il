@@ -35,8 +35,8 @@ Mongodb Quick Installation Script
 The scripts are simple. you can run each one by it self.
 For example running s1r1.bat will unregister and register a windows service.
 I wrote it intentionally in a not DRY functions fashion
-so it will be straight forward. I think you will be able fairly easily
-modify these scripts to your needs and use them.
+so it will be straight forward. I think you will be able 
+to modify these scripts fairly easily to your needs and use them.
 
 plan:
 
